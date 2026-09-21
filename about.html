@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <script>document.documentElement.classList.add("veil")</script>
+  <title>About me | Steven Paré</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="page-veil" aria-hidden="true"></div>
+  <div class="site-bg" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Main">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+      <ul class="menu" id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sound-design.html">Sound Design</a></li>
+        <li><a href="scoring.html">Scoring</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page">
+      <div class="col">
+        <h1 class="rule-title">About me</h1>
+        <!-- The original About page text did not load in the scrape; paste it here. -->
+        <p class="lead">I create immersive audio experiences through sound design, sound integration and post-production. I graduated from Musitechnic with an AEC in Sound Design and Recording, where I developed a strong foundation in audio production, editing, recording, and post-production workflows. Through my training and personal projects, I have gained experience working with industry-standard tools such as Pro Tools, Reaper, and Wwise.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><p>&copy; <span id="year"></span> Steven Paré</p></footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

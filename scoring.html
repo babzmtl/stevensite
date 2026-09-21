@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <script>document.documentElement.classList.add("veil")</script>
+  <title>Scoring | Steven Paré</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="inner">
+  <div class="page-veil" aria-hidden="true"></div>
+  <div class="site-bg" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Main">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+      <ul class="menu" id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sound-design.html">Sound Design</a></li>
+        <li><a href="scoring.html" class="active">Scoring</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page sd">
+      <h1 class="center-title">SCORING</h1>
+      <div class="sd-list">
+        <article class="sd-item sd-item--media-left">
+          <div class="sd-head"><h2>SICARIO</h2><h3>Film Rescoring</h3></div>
+          <div class="yt" data-id="T5xhs6O40To" data-title="SICARIO"><span class="yt-ph">SICARIO: video</span></div>
+          <p class="sd-text">I rescored a tense scene from Sicario. The challenge was to create an effective score for a sequence with very little dialogue and minimal sound. I used dark sound design and ambient textures to build tension while preserving the scene’s sense of restraint and suspense.</p>
+        </article>
+        <article class="sd-item sd-item--media-right">
+          <div class="sd-head"><h2>Why You Should NEVER Take a Break</h2><h3>Film Rescoring</h3></div>
+          <div class="yt" data-id="YxY_c9JIaUw" data-title="Why You Should NEVER Take a Break"><span class="yt-ph">Why You Should NEVER Take a Break: video</span></div>
+          <p class="sd-text">In my Music Creation course, I composed and produced an original score for a short film of my choice. I selected this video for its dramatic tone, which guided my approach to creating an orchestral soundtrack that complemented its mood and atmosphere.</p>
+        </article>
+        <article class="sd-item sd-item--media-left sd-item--audio">
+          <div class="sd-head"><h2>The Starry Night</h2></div>
+          <img class="sd-cover" src="images/starry-night.jpg" alt="The Starry Night" width="279" height="224">
+          <div class="sd-side">
+            <p class="sd-text">For this project, I composed an original soundtrack inspired by The Starry Night by Vincent van Gogh. The goal was to translate the painting’s visual atmosphere and emotional impact into music, exploring the relationship between sound and imagery.</p>
+            <div class="player" data-player>
+              <button class="play" aria-label="Play"></button>
+              <input class="seek" type="range" min="0" max="100" value="0" step="0.1" aria-label="Seek">
+              <span class="time"><span class="cur">00:00</span> / <span class="dur">01:22</span></span>
+              <audio preload="metadata" src="audio/starry-night.mp3"></audio>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><p>&copy; <span id="year"></span> Steven Paré</p></footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
